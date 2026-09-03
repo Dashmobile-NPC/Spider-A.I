@@ -4,7 +4,7 @@ A release-ready Android starter for **SPIDER-AI**, an original resourceful AI-as
 
 ## Release pipeline
 
-Publishing a GitHub Release such as `v1.0.0` triggers:
+Publishing a GitHub Release such as `v1.0.0`, or manually running the workflow from GitHub Actions, triggers:
 
 1. GitHub Actions checks out that release tag.
 2. Java 17, Android SDK, and Gradle 8.9 are configured.
@@ -32,7 +32,7 @@ From GitHub, create and publish a release with a tag such as:
 
 `v1.0.0`
 
-The workflow `.github/workflows/build-apk.yml` will build and attach:
+The workflow `.github/workflows/ci.yml` will build and attach. You can start it manually from **Actions → Build and Release Spider-AI APK → Run workflow**:
 
 - `Spider-AI-v1.0.0.apk`
 - `Spider-AI-v1.0.0.sha256`
