@@ -1,0 +1,14 @@
+{
+  "name": "SPIDER-AI",
+  "designation": "Brand New Day Directive",
+  "mode": "connected",
+  "offline_fallback": true,
+  "internet": true,
+  "device_tools": ["microphone", "camera", "location", "notifications", "files", "media"],
+  "behavior": {
+    "ask_before_sensitive_actions": true,
+    "respect_android_permissions": true,
+    "never_bypass_security": true,
+    "never_secretly_monitor": true
+  }
+}
